@@ -17,7 +17,7 @@ For querying recipes, I selected the [Spoonacular Food API](https://spoonacular.
 
 So after a weekend of programming in the COVID-19 curfew, here is what the product looks like. If you have Telegram on your phone, strike up a chat with Epicurean a.k.a. @epicurryin_bot. Type /start in the message box and follow instructions. You don't even have to say hello! 
 
-Here is a snap-shot from what was in my fridge today.
+Here is a snap-shot showing Epicurean's recommendations in Telegram chat based on what's in my fridge today.
 
 ![Epicurean_snap](https://user-images.githubusercontent.com/5471571/84470785-e8acb480-ac38-11ea-977e-d224500f4352.png)
 
