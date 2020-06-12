@@ -1,16 +1,17 @@
 # OzWiz_Epicurean
 A Telegram chatbot to suggest healthy recipes with available ingredients.
 
-My wife and eat healthy by cooking at home and avoid waste.
-Picking up ingredients on the daily commute is a time-saver.
-But we are often guessing what's in the pantry for the dish we will make.
-What if we had a chat-bot to do due-diligence and make a recommendation, wouldn't that be great!
+We like to eat healthy by cooking at home. Picking up fresh ingredients on the daily commute is a time-saver and avoids waste. But we are often guessing what's in the pantry at home to plan for the day. What if we had a robot do the due-diligence and make a recommendation, wouldn't that be great?!
 
-Mobility is key! We are always on the move. But building an app incurs development overhead. I want to use an existing platform and fit it out for my needs.
+Mobility is key. But building an app involves software development effort beyond a weekend project. A better approach is to use existing platform and fit it out to the requirement. Sounds like a job for a chat-bot!
 
 Chat-bots have become popular of late. A bot can be programmed to respond to text messages and commands. A bot appears like just another person with a name and id. However, a bot can only respond to a message and not initiate a conversation. (Otherwise the platform would quickly be overwhelmed with spam.)
 
-I have implemented the chat-bot in Telegram. Telegram has an awesome API in comparison with other options like WhatsApp. The platform encourages use of bots unlike WhatsApp. For Python programmers, the `telegram.ext` library over the base API is top-notch and offers features to set up automation with queues, filters and handlers. 
+Bots are just special accounts that subscribers can interact with. Any subscriber can create a bot. A bot can respond to text messages and commands. However, a bot can never initiate conversations with users. (Otherwise the Universe would be awash with spam.)
+
+I picked Telegram to implement a chat-bot. As an app, Telegram is an instant messaging software like WhatsApp. Unlike WhatsApp, Telegram has an awesome API. And unlike WhatsApp, the platform actively encourages bots. And unlike WhatsApp, it isn't owned by Facebook. ;-)
+
+The [python-telegram-bot](https://github.com/python-telegram-bot/python-telegram-bot) project offers the means to program a bot in Python. Aside from support for the base API that a developer would expect to find, the [telegram.ext](https://github.com/python-telegram-bot/python-telegram-bot/wiki/Extensions-–-Your-first-Bot) sub-module offers cool features in modern programming style for automation with queues, filters and handlers. 
 
 For querying recipes, I have used the Spoonacular database. The account works on a points system with a fixed daily quota of free points. Points are deducted as queries are made depending on the API end-point used. The Spoonacular API offers comprehensive querying capabilties to access a huge database of recipes from cuisines world-wide.
 
