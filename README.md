@@ -11,9 +11,9 @@ Bots are just special accounts that subscribers can interact with. Any subscribe
 
 I picked Telegram to implement a chat-bot. As an app, Telegram is an instant messaging software like WhatsApp. Unlike WhatsApp, Telegram has an awesome API. And unlike WhatsApp, the platform actively encourages bots. And unlike WhatsApp, it isn't owned by Facebook. ;-)
 
-The [python-telegram-bot](https://github.com/python-telegram-bot/python-telegram-bot) project offers the means to program a bot in Python. Aside from support for the base API that a developer would expect to find, the [telegram.ext](https://github.com/python-telegram-bot/python-telegram-bot/wiki/Extensions-–-Your-first-Bot) sub-module offers cool features in modern programming style for automation with queues, filters and handlers. 
+The [python-telegram-bot](https://github.com/python-telegram-bot/python-telegram-bot) project offers the means to program a bot in Python. Aside from support for the base API that a developer would expect to find, the [telegram.ext](https://github.com/python-telegram-bot/python-telegram-bot/wiki/Extensions-–-Your-first-Bot) sub-module offers cool features in modern programming style for automation with queues, filters and handlers. It is a fantastic way to program in the DRY style advocated in [The Practical Programmer](https://en.wikipedia.org/wiki/The_Pragmatic_Programmer) and a natural choice for my Epicurean bot.
 
-For querying recipes, I have used the Spoonacular database. The account works on a points system with a fixed daily quota of free points. Points are deducted as queries are made depending on the API end-point used. The Spoonacular API offers comprehensive querying capabilties to access a huge database of recipes from cuisines world-wide.
+For querying recipes, I selected the [Spoonacular Food API](https://spoonacular.com/food-api). The free account works on a points system with a fixed daily quota. Points are deducted per query made depending on the API end-point used. The Spoonacular API offers access to a comprehensive database of world-wide cuisines with smart querying based on Natural Language Processing (NLP).
 
 Here is a screenshot of Epicurean, the chatbot I have programmed.
 
