@@ -15,16 +15,18 @@ The [python-telegram-bot](https://github.com/python-telegram-bot/python-telegram
 
 For querying recipes, I selected the [Spoonacular Food API](https://spoonacular.com/food-api). The free account works on a points system with a fixed daily quota. Points are deducted per query made depending on the API end-point used. The Spoonacular API offers access to a comprehensive database of world-wide cuisines with smart querying based on Natural Language Processing (NLP).
 
-Here is a screenshot of Epicurean, the chatbot I have programmed.
+So after a weekend of programming in the COVID-19 curfew, here is what the product looks like. If you have Telegram on your phone, strike up a chat with Epicurean a.k.a. @epicurryin_bot. Type /start in the message box and follow instructions. You don't even have to say hello! 
+
+Here is a snap-shot from what was in my fridge today.Here is a screenshot of Epicurean, the chatbot I have programmed.
 
 ![Epicurean_snap](https://user-images.githubusercontent.com/5471571/84470785-e8acb480-ac38-11ea-977e-d224500f4352.png)
 
-Here is a snap of a recipe-card build using Spoonacular API.
+My bot will build a recipe for you based on the ingredients you provide and tastefully present it as a recipe card. Here is a sample recipe card I got for dal (Indian lentils), onions and carrots. It is pretty impressive how effortlessly the [Spoonacular API](https://spoonacular.com/food-api/docs) uses NLP to bridge-over different languages and culinary idioms. 
 
 [
 ![recipeCard-1591936354848](https://user-images.githubusercontent.com/5471571/84470346-075e7b80-ac38-11ea-983d-88f63a49dbbc.png)
 ](url)
 
-And it even tells a dirty joke or two!
+And it even tells a dirty joke or two! Send a /joke command to get a random joke when the kids are not around.
 
 ![Epicurean_snap2](https://user-images.githubusercontent.com/5471571/84470910-2ad5f600-ac39-11ea-95a0-6ff23c19d48d.jpg)
